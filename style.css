@@ -84,24 +84,23 @@ p
 .bar
 {
     float:left; 
-    width: 25%;
+    width: 23.5%;
     height:48rem;
     background-color: rgb(242, 231, 231);
     text-align: left;
-    padding: 30px 3px;
+    padding: 30px 15px;
     word-wrap: break-word;
     background-size: auto;
 }
 .bar h4
 {
     text-align: center;
-    font-weight: 500;
+    font-weight: 600;
 }
 ul
 {
     list-style: none;
     padding-left: 5px;
-    font-weight: bold;
 }
 .bar article
 {
@@ -111,6 +110,7 @@ ul
 {
     width: 25px;
     height: 25px;
+    color: #4d4d50;
 }
 .bar ul li
 {
@@ -124,23 +124,40 @@ ul
 {
     margin: 20px 0;
 }
+h3
+{
+    margin:0;
+    font-weight:bold;
+}
+div span
+{
+    border-radius: 5px;
+    padding: 7px 13px;
+}
 .tecnologias span
 {
     background-color: #7d7d80;
     border-color: #202020;
-    border-radius: 5px;
-    /* border: 7px 3px; */
-    padding: 7px 13px;
     color: rgb(236, 236, 226);
 }
-.experience h3
+.habilidades span
 {
-    margin-bottom:0;
-    font-weight:bold;
+    background-color: rgb(215, 176, 176);
+    border-color: rgb(236, 215, 215);
+    color:#4d4d50;
+    margin: 25px 2px;
 }
-.experience h4
+.general h4
 {
     margin-top: 0;
     margin-bottom: 15px;
-   color: rgb(186, 129, 129);
+    color: rgb(186, 129, 129);
+}
+h5
+{
+    margin: 0;
+}
+div
+{
+    margin: 20px 3px;
 }

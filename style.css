@@ -1,6 +1,6 @@
 html{
     font-family: 'Montserrat', sans-serif;
-    height: 100%;
+    height: auto;
 }
 body
 {
@@ -10,7 +10,7 @@ body
 main
 {
     display: inline-block;
-    height: 100%;
+    height: auto;
     width: 100%;
 }
 header
@@ -62,7 +62,7 @@ a
 {
     float:right; 
     width: 73%;
-    height: 100%;
+    height: auto;
     word-wrap: break-word;
 }
 .general h2
@@ -85,12 +85,11 @@ p
 {
     float:left; 
     width: 23.5%;
-    height:48rem;
+    height:auto;
     background-color: rgb(242, 231, 231);
     text-align: left;
     padding: 30px 15px;
     word-wrap: break-word;
-    background-size: auto;
 }
 .bar h4
 {
@@ -129,7 +128,7 @@ h3
     margin:0;
     font-weight:bold;
 }
-div span
+article span
 {
     border-radius: 5px;
     padding: 7px 13px;
@@ -160,4 +159,9 @@ h5
 div
 {
     margin: 20px 3px;
+}
+*
+{
+    border-color: red;
+    border-width: 1px;
 }

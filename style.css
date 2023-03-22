@@ -70,7 +70,7 @@ a
     font-size: 35px;
     font-weight:bolder;
     color: #202020;
-    margin: 15px 0;
+    margin: 10px 0;
 }
 .general article
 {
@@ -88,7 +88,7 @@ p
     height:auto;
     background-color: rgb(242, 231, 231);
     text-align: left;
-    padding: 30px 15px;
+    padding: 0 15px;
     word-wrap: break-word;
 }
 .bar h4
@@ -104,6 +104,7 @@ ul
 .bar article
 {
     padding: 5px 3px;
+    margin: 20px 0;
 }
 .bar img
 {
@@ -115,53 +116,48 @@ ul
 {
     margin-bottom: 5px;
 }
+
 .general article ul
 {
     font-weight: normal;
 }
 .general article li
 {
-    margin: 20px 0;
+    margin: 35px 0;
 }
 h3
 {
     margin:0;
     font-weight:bold;
 }
-article span
-{
-    border-radius: 5px;
-    padding: 7px 13px;
-}
-.tecnologias span
-{
-    background-color: #7d7d80;
-    border-color: #202020;
-    color: rgb(236, 236, 226);
-}
-.habilidades span
-{
-    background-color: rgb(215, 176, 176);
-    border-color: rgb(236, 215, 215);
-    color:#4d4d50;
-    margin: 25px 2px;
-}
 .general h4
 {
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     color: rgb(186, 129, 129);
 }
 h5
 {
     margin: 0;
 }
-div
+
+section div
 {
-    margin: 20px 3px;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 3px 5px;
+    margin: 3px 3px;
+    font-weight: bold;
 }
-*
+.soft_skills div
 {
-    border-color: red;
-    border-width: 1px;
+    background-color: rgb(215, 176, 176);
+    border-color: rgb(236, 215, 215);
+    color:#767678;
+}
+.hard_skills div
+{
+    background-color: #7d7d80;
+    border-color:rgb(215, 176, 176);
+    color:rgb(240, 208, 208);
 }

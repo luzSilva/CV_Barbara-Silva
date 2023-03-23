@@ -57,7 +57,17 @@ a
 {
     color: rgb(23, 22, 22);
     text-decoration:none;
+    transition: color 0.3s ease;
 }
+.datos ul li
+{
+    margin-bottom: 5px;
+}
+a:hover
+{
+    color: rgb(186, 129, 129);
+}
+
 .general
 {
     float:right; 
@@ -75,6 +85,7 @@ a
 .general article
 {
     padding-top: 10px;
+    word-wrap: break-word;
 }
 p
 {
@@ -110,11 +121,6 @@ ul
 {
     width: 25px;
     height: 25px;
-    color: #4d4d50;
-}
-.bar ul li
-{
-    margin-bottom: 5px;
 }
 
 .general article ul
@@ -146,18 +152,62 @@ section div
     display: inline-block;
     border-radius: 5px;
     padding: 3px 5px;
-    margin: 3px 3px;
-    font-weight: bold;
+    margin: 3px 0;
 }
 .soft_skills div
 {
     background-color: rgb(215, 176, 176);
-    border-color: rgb(236, 215, 215);
+    /* border-color: rgb(236, 215, 215); */
     color:#767678;
+    word-break: break-all;
+    
 }
 .hard_skills div
 {
     background-color: #7d7d80;
-    border-color:rgb(215, 176, 176);
+    /* border-color:rgb(215, 176, 176); */
     color:rgb(240, 208, 208);
+}
+.bar div
+{
+    font-weight: bold;
+    font-size: 17px;
+    border: 2px solid;
+    transition: box-shadow 0.3s ease;
+    word-wrap: break-word;
+    cursor: pointer;
+}
+.bar div:hover
+{
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.5);
+}
+b
+{
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+b:hover
+{
+    color: #767678;
+}
+footer
+{
+    transition: color 0.3s ease;
+    cursor:pointer;
+    background-color: #7d7d80;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px;
+}
+footer a
+{
+    color: #ffffff64;
+}
+footer a:hover
+{
+    color: rgb(186, 129, 129);
+}
+hr
+{
+margin: 15px 0;
 }

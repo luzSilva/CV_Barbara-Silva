@@ -83,13 +83,13 @@ a:hover
 }
 .general article
 {
-    padding-top: 10px;
+    padding: 20px 0;
     word-wrap: break-word;
 }
 p
 {
     font-size: 20.5px;
-    margin: 15px 0;
+    margin: 20px 0;
 }
 .bar
 {
@@ -105,6 +105,7 @@ p
 {
     text-align: center;
     font-weight: 600;
+    margin: 20px 0;
 }
 ul
 {
@@ -114,7 +115,7 @@ ul
 .bar article
 {
     padding: 5px 3px;
-    margin: 20px 0;
+    margin: 50px 0;
 }
 .bar img
 {
@@ -159,7 +160,6 @@ section div
     /* border-color: rgb(236, 215, 215); */
     color:#767678;
     word-break: break-all;
-    
 }
 .hard_skills div
 {
@@ -167,10 +167,18 @@ section div
     /* border-color:rgb(215, 176, 176); */
     color:rgb(240, 208, 208);
 }
+.habilidades_blandas
+{
+    margin: 20px 0;
+}
+.habilidades_duras
+{
+    margin: 20px 0;;
+}
 .bar div
 {
     font-weight: bold;
-    font-size: 17px;
+    font-size: 20px;
     border: 2px solid;
     transition: box-shadow 0.3s ease;
     word-wrap: break-word;
@@ -209,4 +217,16 @@ footer a:hover
 hr
 {
 margin: 15px 0;
+}
+#cursos li
+{
+    margin: 10px 0;
+}
+#cursos
+{
+    margin: 15px 0;
+}
+.education section
+{
+    margin: 20px 0;
 }

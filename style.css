@@ -58,7 +58,7 @@ a
     text-decoration:none;
     transition: color 0.3s ease;
 }
-.datos ul li
+.contacto ul li
 {
     margin-bottom: 5px;
 }
@@ -67,21 +67,21 @@ a:hover
     color: rgb(186, 129, 129);
 }
 
-.general
+.lado_derecho
 {
     float:right; 
     width:68%;
     height: auto;
     word-wrap: break-word;
 }
-.general h2
+.lado_derecho h2
 {
     font-size: 35px;
     font-weight:bolder;
     color: #202020;
     margin: 10px 0;
 }
-.general article
+.lado_derecho article
 {
     padding: 20px 0;
     word-wrap: break-word;
@@ -91,7 +91,7 @@ p
     font-size: 20.5px;
     margin: 20px 0;
 }
-.bar
+.lado_izquierdo
 {
     float:left; 
     width: 23.5%;
@@ -101,7 +101,7 @@ p
     padding: 0 15px;
     word-wrap: break-word;
 }
-.bar h4
+.lado_izquierdo h4
 {
     text-align: center;
     font-weight: 600;
@@ -112,22 +112,22 @@ ul
     list-style: none;
     padding-left: 5px;
 }
-.bar article
+.lado_izquierdo article
 {
     padding: 5px 3px;
     margin: 50px 0;
 }
-.bar img
+.lado_izquierdo img
 {
     width: 25px;
     height: 25px;
 }
 
-.general article ul
+.lado_derecho article ul
 {
     font-weight: normal;
 }
-.general article li
+.lado_derecho article li
 {
     margin: 35px 0;
 }
@@ -136,10 +136,9 @@ h3
     margin:0;
     font-weight:bold;
 }
-.general h4
+.lado_derecho h4
 {
-    margin-top: 0;
-    margin-bottom: 10px;
+    margin: 0;
     color: rgb(186, 129, 129);
 }
 h5
@@ -154,28 +153,21 @@ section div
     padding: 3px 5px;
     margin: 3px 0;
 }
-.soft_skills div
+.habilidades_sociales div
 {
     background-color: rgb(215, 176, 176);
     /* border-color: rgb(236, 215, 215); */
     color:#767678;
     word-break: break-all;
 }
-.hard_skills div
+.habilidades_tecnicas div
 {
     background-color: #7d7d80;
     /* border-color:rgb(215, 176, 176); */
     color:rgb(240, 208, 208);
 }
-.habilidades_blandas
-{
-    margin: 20px 0;
-}
-.habilidades_duras
-{
-    margin: 20px 0;;
-}
-.bar div
+
+.lado_izquierdo div
 {
     font-weight: bold;
     font-size: 20px;
@@ -184,7 +176,7 @@ section div
     word-wrap: break-word;
     cursor: pointer;
 }
-.bar div:hover
+.lado_izquierdo div:hover
 {
     box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.5);
 }
@@ -201,7 +193,7 @@ footer
 {
     transition: color 0.3s ease;
     cursor:pointer;
-    background-color: #7d7d80;
+    background-color: #4d4d50;
     font-weight: bold;
     text-align: center;
     padding: 30px;
@@ -214,19 +206,19 @@ footer a:hover
 {
     color: rgb(186, 129, 129);
 }
+.lado_izquierdo hr
+{
+    margin: 40px 0;
+}
 hr
 {
-margin: 15px 0;
+    margin: 20px 0;
 }
-#cursos li
+#educacion_complementaria li
 {
     margin: 10px 0;
 }
-#cursos
+#educacion-complementaria
 {
     margin: 15px 0;
-}
-.education section
-{
-    margin: 20px 0;
 }

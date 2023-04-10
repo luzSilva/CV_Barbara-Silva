@@ -3,7 +3,7 @@
 
 Este es el resultado de un desafío personal que me propuse luego de realizar un curso de HTML y CSS. 
 
-Podrás ver el desarrollo finalizado en [CV-BarbaraSilva](https://luzsilva.github.io/CV_html/)
+Podrás ver el desarrollo finalizado en [CV-BarbaraSilva](https://luzsilva.github.io/CV_Barbara-Silva/)
 
 >Lo siguiente es solo una vista previa del desarrollo, no se aprecia el resultado de interacciones ya que es una imagen
 
